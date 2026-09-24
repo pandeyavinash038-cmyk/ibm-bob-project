@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────
+# E-Commerce Sales Prediction — Python dependencies
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Core data & ML ────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.25.0
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# ── Backend — FastAPI (async) ─────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0      # includes websockets, httptools
+pydantic>=2.0.0
+python-multipart>=0.0.9        # required for FastAPI form parsing
+
+# ── Backend — Flask (sync, app.py) ───────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0              # CORS headers for browser/Streamlit clients
+
+# ── Frontend (Streamlit + visualisation) ─────────────────────
+streamlit>=1.35.0
+plotly>=5.20.0
+requests>=2.31.0
+
+# ── Optional: Jupyter / notebook exploration ─────────────────
+# jupyter>=1.0.0
+# matplotlib>=3.8.0
+# seaborn>=0.13.0
